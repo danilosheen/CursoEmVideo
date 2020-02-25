@@ -15,6 +15,7 @@ public class Main {
 		i1.ligar();
 		i1.colocarPapel();
 		//status
+		System.out.println("Mostrando status da impressora\n");
 		i1.status();
 		i1.imprimir();
 		
@@ -28,8 +29,10 @@ public class Main {
 		e1.material = false;
 		e1.prepararMaterial();
 		//status
+		System.out.println("Mostrando status do estudo\n");
 		e1.status();
 		e1.começar();
+	
 		
 	}
 
