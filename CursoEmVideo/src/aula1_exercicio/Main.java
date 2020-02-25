@@ -24,7 +24,7 @@ public class Main {
 		Estudo e1 = new Estudo();
 		//atribuir valores
 		e1.hora = "13:30";
-		e1.local = "Casa";
+		e1.local = "Faculdade";
 		e1.material = false;
 		e1.prepararMaterial();
 		//status
