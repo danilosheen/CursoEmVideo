@@ -16,7 +16,7 @@ public class Caneta {
 		System.out.println("------------------");
 	}
 	
-	//contrutor	
+	//construtor	
 	public Caneta(String modelo, float ponta, String cor) {
 		this.setModelo(modelo);
 		this.setPonta(ponta);
