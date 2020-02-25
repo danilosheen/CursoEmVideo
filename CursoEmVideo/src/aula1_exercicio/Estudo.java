@@ -13,7 +13,7 @@ public class Estudo {
 		System.out.println("Local: " + this.local);
 		System.out.println("Tenho material? " + this.material);
 	}
-	void começar() {
+	void comecar() {
 		if (this.material == true) {
 			System.out.println("Comecei a estudar");
 		}

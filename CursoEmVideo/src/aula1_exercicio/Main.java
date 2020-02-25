@@ -31,7 +31,7 @@ public class Main {
 		//status
 		System.out.println("Mostrando status do estudo\n");
 		e1.status();
-		e1.começar();
+		e1.comecar();
 	
 		
 	}
