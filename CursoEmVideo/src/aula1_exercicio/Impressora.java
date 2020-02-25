@@ -8,9 +8,17 @@ public class Impressora {
 	boolean bulk;
 	boolean papel;
 	boolean ligada;
-	float peso;
+	String peso;
 	
 	//metodos
+	void status() {
+		System.out.println("Modelo: " + this.modelo);
+		System.out.println("Cor: " + this.cor);
+		System.out.println("A impressora tem bulk? " + this.bulk);
+		System.out.println("A impressora tem papel? " + this.papel);
+		System.out.println("A impressora está ligada? " + this.ligada);
+		System.out.println("Qual o peso da impressora? " + this.peso);
+	}
 	void imprimir() {
 		if (this.ligada == true && this.papel == true){
 			System.out.println("Estou imprimindo");
@@ -31,6 +39,9 @@ public class Impressora {
 	}
 	void limpeza() {
 		System.out.println("Estou executando a limpeza!");
+	}
+	void colocarPapel() {
+		this.papel = true;
 	}
 
 }
